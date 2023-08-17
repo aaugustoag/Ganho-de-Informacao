@@ -12,7 +12,7 @@ Plantas do gênero Iris possuem diversas espécies que podem ser diferenciadas p
   <img src="especies.png" alt="Iris">
 </div>
 
-Nesta prática, iremos investigar quais atributos distinguem melhor algumas espécies dessa planta. Para isso, usaremos este dataset que possui 150 plantas do gênero Iris com atributos de sua flor (propriedades):
+Nesta prática, iremos investigar quais atributos distinguem melhor algumas espécies dessa planta. Para isso, usaremos [este dataset](iris.csv) que possui 150 plantas do gênero Iris com atributos de sua flor (propriedades):
 
 * Tamanho e largura do cálice (em cm);
 * Tamanho e largura da pétala (em cm).
@@ -23,11 +23,12 @@ Nesta prática, iremos investigar quais atributos distinguem melhor algumas esp�
 
 ##
 
-Existem 3 espécies de plantas do gênero Iris na base que será usada: Iris Setosa, Iris Virginifica e Iris Versicolor.<br>
+Existem 3 espécies de plantas do genero Iris na base que será usada: [Iris Setosa](https://en.wikipedia.org/wiki/Iris_setosa), [Iris Virginifica](https://en.wikipedia.org/wiki/Iris_virginica) e [Iris Versicolor](https://en.wikipedia.org/wiki/Iris_versicolor)
+
 Nesta atividade, você deverá:
 
-1. Calcular do InfoGain de cada atributo. Armazene o resultado em um DataFrame de duas colunas - nome do atributo e valor de infogain - ordene essa tabela pelo InfoGain;
-2. Gerar um gráfico de dispersão (scatter plot) em que o eixo x e y são os dois atributos com InfoGain mais altos e com 3 grupos, cada grupo, uma espécie de flor diferente.
+1. Calcular do InfoGain de cada atributo. Armazene o resultado em um DataFrame de duas colunas - nome do atributo e valor de infogain - ordene essa tabela pelo InfoGain.
+1. Gerar um gráfico de disperção (*scatter plot*) em que o eixo x e y são os dois atributos com InfoGain mais altos e com 3 grupos, cada grupo, uma espécie de flor diferente.
 
 ![image](https://github.com/aaugustoag/Ganho-de-Informacao/assets/49174397/52df54db-ae71-4635-a52f-7ea5573348d7)<br>
 ![image](https://github.com/aaugustoag/Ganho-de-Informacao/assets/49174397/c69b0a83-1b93-4e43-aac4-f157140ee84b)
