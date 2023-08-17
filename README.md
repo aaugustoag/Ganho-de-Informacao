@@ -6,12 +6,24 @@
 
 Prática de Ganho de Informação no contexto da disciplina Aprendizado de Máquina no CEFET-MG.
 ## Análise de Atributos para Diferenciar Espécies de Plantas do Gênero Iris
-Plantas do gênero Iris possuem diversas espécies que podem ser diferenciadas por algumas características da flor. Nesta prática, iremos investigar quais atributos distinguem melhor algumas espécies dessa planta. Para isso, usaremos este dataset que possui 150 plantas do gênero Iris com atributos de sua flor (propriedades):
+Plantas do gênero Iris possuem diversas espécies que podem ser diferenciadas por algumas características da flor. 
+
+<div align="center">
+  <img src="especies.png" alt="Iris">
+</div>
+
+Nesta prática, iremos investigar quais atributos distinguem melhor algumas espécies dessa planta. Para isso, usaremos este dataset que possui 150 plantas do gênero Iris com atributos de sua flor (propriedades):
 
 * Tamanho e largura do cálice (em cm);
 * Tamanho e largura da pétala (em cm).
 
-Existem 3 espécies de plantas do gênero Iris na base que será usada: Iris Setosa, Iris Virginifica e Iris Versicolor
+<div align="center">
+  <img src="partes_flor.png" alt="Partes da Flor">
+</div>
+
+##
+
+Existem 3 espécies de plantas do gênero Iris na base que será usada: Iris Setosa, Iris Virginifica e Iris Versicolor.<br>
 Nesta atividade, você deverá:
 
 1. Calcular do InfoGain de cada atributo. Armazene o resultado em um DataFrame de duas colunas - nome do atributo e valor de infogain - ordene essa tabela pelo InfoGain;
